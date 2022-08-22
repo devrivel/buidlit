@@ -7,11 +7,14 @@
 &nbsp;
 
 We wanted to make recurring payments in crypto easy for everyone.
-We came up with a set of tools to allow eager merchant to start
+We came up with a set of tools to allow eager merchants to start
 accepting crypto recurring payments in no time. Tools built
-for the hackathon are an easy-to-use merchant dashboard for
-creating products and a hosted checkout page for selling those
-products in a few click.
+for the hackathon are:
+
+- an easy-to-use merchant dashboard for
+  creating products and
+- a hosted checkout page for selling those
+  products in a few click.
 
 ## Benefits to merchants and users 🪄
 
@@ -58,4 +61,4 @@ API key, or with a Rivel SDK.
 Crucial piece of infrastructure is our subscription processor deployed as a Lambda function on AWS.
 The subscription processor calls the Rivel smart contract whenever a subscription is due.
 
-## Thank you for providing an amazing opportunity! 🙌
+## Thanks for Polygon and all the sponsors for providing an amazing opportunity! 🙌
