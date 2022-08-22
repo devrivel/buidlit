@@ -1,0 +1,26 @@
+{
+  "name": "processor",
+  "version": "1.0.0",
+  "description": "",
+  "source": "src/index.js",
+  "main": "dist/main.js",
+  "scripts": {
+    "test": "node buildEnv && parcel build && node dist/main",
+    "watch": "parcel watch",
+    "build": "node build/buildEnv && parcel build"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "archiver": "^5.3.1",
+    "parcel": "^2.7.0"
+  },
+  "dependencies": {
+    "@uniswap/sdk-core": "^3.0.1",
+    "@uniswap/smart-order-router": "^2.9.3",
+    "ethers": "^5.7.0",
+    "mongoose": "^6.5.2",
+    "web3": "^1.7.5",
+    "winston": "^3.8.1"
+  }
+}

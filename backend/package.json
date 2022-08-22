@@ -1,0 +1,49 @@
+{
+  "name": "billink-api",
+  "version": "1.0.0",
+  "description": "Automated crypto payments made easy.",
+  "main": "server/app.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "pm2 start ecosystem.config.js",
+    "serve": "npx tsc && node dist/app"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@aws-sdk/client-sqs": "^3.154.0",
+    "@types/express": "^4.17.13",
+    "@types/node": "^18.0.6",
+    "@uniswap/sdk-core": "^3.0.1",
+    "@uniswap/smart-order-router": "^2.8.0",
+    "agenda": "^4.3.0",
+    "axios": "^0.27.2",
+    "cookie-parser": "^1.4.6",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.1",
+    "ethers": "^5.6.9",
+    "express": "^4.18.1",
+    "express-validator": "^6.14.2",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^6.4.6",
+    "morgan": "^1.10.0",
+    "nanoid": "^3.3.4",
+    "parse-duration": "^1.0.2",
+    "typescript": "^4.7.4",
+    "uuid": "^8.3.2",
+    "web3": "^1.7.4",
+    "winston": "^3.8.1"
+  },
+  "devDependencies": {
+    "@types/agenda": "^4.1.0",
+    "@types/cookie-parser": "^1.4.3",
+    "@types/cors": "^2.8.12",
+    "@types/jsonwebtoken": "^8.5.8",
+    "@types/morgan": "^1.9.3",
+    "@types/uuid": "^8.3.4",
+    "@typescript-eslint/eslint-plugin": "^5.30.7",
+    "@typescript-eslint/parser": "^5.30.7",
+    "eslint": "^8.20.0",
+    "ts-node": "^10.9.1"
+  }
+}
