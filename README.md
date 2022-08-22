@@ -61,4 +61,6 @@ API key, or with a Rivel SDK.
 Crucial piece of infrastructure is our subscription processor deployed as a Lambda function on AWS.
 The subscription processor calls the Rivel smart contract whenever a subscription is due.
 
-## Thanks for Polygon and all the sponsors for providing an amazing opportunity! 🙌
+[Rivel Contract Deployment](https://polygonscan.com/address/0xB495abBEAeC9e3a5F94d7DAc9524293F5793A86D)
+
+## Thanks to Polygon and all the sponsors for providing an amazing opportunity! 🙌
